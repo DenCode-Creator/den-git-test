@@ -1,0 +1,23 @@
+section {
+  min-height: 420px;
+}
+
+.jumbotron {
+  background-image: url(img/header-bg.png);
+  font-family: arial;
+  color: white;
+  background-attachment: fixed;
+  background-size: auto;
+}
+
+.jumbotron img {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+}
+
+.jumbotron h1, p {
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+}
+       
+section .about, p {
+  text-shadow: none;
+  }
